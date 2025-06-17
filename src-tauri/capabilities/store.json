@@ -1,0 +1,8 @@
+{
+  "identifier": "store",
+  "windows": ["main"],
+  "permissions": [
+    "store:allow-load",
+    "store:default"
+  ]
+}

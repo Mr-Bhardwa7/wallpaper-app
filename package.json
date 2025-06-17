@@ -1,0 +1,43 @@
+{
+  "name": "wallpaperremix",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@radix-ui/react-dialog": "^1.1.14",
+    "@tailwindcss/vite": "^4.1.8",
+    "@tanstack/react-virtual": "^3.13.10",
+    "@tauri-apps/api": "^2.5.0",
+    "@tauri-apps/plugin-autostart": "^2.3.0",
+    "@tauri-apps/plugin-opener": "^2",
+    "@tauri-apps/plugin-store": "^2.2.0",
+    "@types/lodash": "^4.17.17",
+    "framer-motion": "^12.18.1",
+    "lodash": "^4.17.21",
+    "lucide-react": "^0.514.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hot-toast": "^2.5.2",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-router-dom": "^7.6.2",
+    "react-window": "^1.8.11",
+    "zustand": "^5.0.5"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.5.0",
+    "@types/node": "^24.0.1",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "install": "^0.13.0",
+    "npm": "^11.4.2",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.3"
+  }
+}

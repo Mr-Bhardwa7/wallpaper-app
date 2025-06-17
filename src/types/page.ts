@@ -1,0 +1,1 @@
+export type Page = 'home' | 'gallery' | 'generate' | 'favorites' | 'settings' | 'account';
